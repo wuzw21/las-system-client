@@ -1,10 +1,7 @@
 import os
-import json
 import psutil,nvidia_smi
-import uuid
 import netifaces
 import requests
-import http.client
 import urllib.parse
 from config import BASE_IP,BASE_PORT,BASE_URL
 import time
